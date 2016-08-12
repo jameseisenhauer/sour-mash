@@ -1,4 +1,6 @@
 language: objective-c
+script:
+ - xcodebuild -workspace sour-mash.xcworkspace -scheme sour-mash -sdk iphonesimulator build test
 xcode_workspace: sour-mash.xcworkspace
 xcode_scheme: sour-mash
 osx_image: xcode7.3
