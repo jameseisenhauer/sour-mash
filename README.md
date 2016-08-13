@@ -5,7 +5,10 @@
 where iOS test ideas ferment
 
 ## Change Log
-* Setup Code Coverage (coveralls & slather)
+* Setup Code Coverage (Coveralls & Slather)
+** Issue: Different Test Coverage when running local vs Travis
+*** Local: Test Coverage: 57.69%
+*** Travis: Test Coverage: 32.69%
 * Setup Travis CI
 * Simple Black/White UI with UI Tests
 * Created Workspace & Project
