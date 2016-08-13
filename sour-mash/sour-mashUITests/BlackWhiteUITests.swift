@@ -28,11 +28,11 @@ class BlackWhiteUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        app.buttons.elementBoundByIndex(1).tap()
+        app.buttons.element(boundBy: 1).tap()
         XCTAssertTrue(app.staticTexts["lbl_black_title"].exists, "Black Title does not exist")
         XCTAssertTrue(app.staticTexts["lbl_black_sub_title"].exists, "Black Sub Title does not exist")
 
-        app.buttons.elementBoundByIndex(0).tap()
+        app.buttons.element(boundBy: 0).tap()
         XCTAssertTrue(app.staticTexts["lbl_white_title"].exists, "White Title does not exist")
         XCTAssertTrue(app.staticTexts["lbl_white_sub_title"].exists, "White Sub Title does not exist")
         
