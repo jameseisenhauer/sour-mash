@@ -5,6 +5,4 @@ script:
  set -o pipefail && xcodebuild -workspace sour-mash.xcworkspace
   -scheme sour-mash -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6"
   GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES clean build test | xcpretty -c
-after_success:
-  - slather coverage -s --scheme sour-mash --workspace sour-mash.xcworkspace sour-mash/sour-mash.xcodeproj
-  - slather
+after_success: slather
