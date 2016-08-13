@@ -1,4 +1,3 @@
 coverage_service: coveralls
-xcworkspace: sour-mash.xcworkspace
 xcodeproj: sour-mash/sour-mash.xcodeproj
 scheme: sour-mash
