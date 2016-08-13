@@ -4,6 +4,7 @@
 where iOS test ideas ferment
 
 ## Change Log
+* Setup Code Coverage coveralls & slather
 * Setup Travis CI
-* Simple Black/White UI with UI Tests 
+* Simple Black/White UI with UI Tests
 * Created Workspace & Project
