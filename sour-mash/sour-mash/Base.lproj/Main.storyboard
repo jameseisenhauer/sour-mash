@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--White View Controller-->
+        <!--White-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="WhiteViewController" customModule="sour_mash" customModuleProvider="target" sceneMemberID="viewController">
@@ -39,7 +39,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="White" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="lbl_white_sub_title" destination="A5M-7J-77L" id="7Gc-b4-dA4"/>
                         <outlet property="lbl_white_title" destination="KQZ-1w-vlD" id="6JG-kc-vzY"/>
@@ -49,7 +49,7 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Black View Controller-->
+        <!--Black-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="BlackViewController" customModule="sour_mash" customModuleProvider="target" sceneMemberID="viewController">
@@ -83,7 +83,7 @@
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Black" image="second" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="lbl_black_sub_title" destination="NDk-cv-Gan" id="AuW-M0-LEa"/>
                         <outlet property="lbl_black_title" destination="zEq-FU-wV5" id="T10-SV-ByK"/>
