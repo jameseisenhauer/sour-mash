@@ -7,6 +7,7 @@
 where iOS test ideas ferment
 
 ## Change Log
+* Added AWS Device Lab prep script
 * Added app icons
 * Setup Code Coverage (Coveralls & Slather)
  * Issue: Different Test Coverage when running local vs Travis
