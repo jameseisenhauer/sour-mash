@@ -20,6 +20,34 @@
                ReferencedContainer = "container:sour-mash.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8932664D1D5E7496005DBDA2"
+               BuildableName = "sour-mashTests.xctest"
+               BlueprintName = "sour-mashTests"
+               ReferencedContainer = "container:sour-mash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "893266581D5E7496005DBDA2"
+               BuildableName = "sour-mashUITests.xctest"
+               BlueprintName = "sour-mashUITests"
+               ReferencedContainer = "container:sour-mash.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

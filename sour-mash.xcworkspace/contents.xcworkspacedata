@@ -5,6 +5,18 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:AWSDeviceFarmBuild.sh">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile">
+   </FileRef>
+   <FileRef
+      location = "group:ExportOptions.plist">
+   </FileRef>
+   <FileRef
       location = "group:sour-mash/sour-mash.xcodeproj">
    </FileRef>
 </Workspace>

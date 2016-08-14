@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					893266371D5E7495005DBDA2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7532ZTGSK7;
 					};
 					8932664D1D5E7496005DBDA2 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -403,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "sour-mash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mash";
@@ -414,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "sour-mash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mash";
@@ -486,6 +489,7 @@
 				893266641D5E7496005DBDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		893266651D5E7496005DBDA2 /* Build configuration list for PBXNativeTarget "sour-mashTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +498,7 @@
 				893266671D5E7496005DBDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		893266681D5E7496005DBDA2 /* Build configuration list for PBXNativeTarget "sour-mashUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +507,7 @@
 				8932666A1D5E7496005DBDA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
