@@ -44,3 +44,9 @@ cd aws/Build/Products/Debug-iphoneos/sour-mash.app/PlugIns/
 zip -r $SCRIPTDIR/aws/sour-mashTests.xctest.zip sour-mashTests.xctest
 
 
+echo "Preparing UI Tests for AWS...."
+
+cd $SCRIPTDIR/aws/Build/Products/Debug-iphoneos/
+mkdir Payload
+cp -r sour-mashUITests-Runner.app Payload/sour-mashUITests-Runner.app
+zip -r $SCRIPTDIR/aws/Payload.ipa Payload
