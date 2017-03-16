@@ -1,8 +1,0 @@
-{"date" : "2017-03-13T22:07:49GMT-07:00",
-"results" : [{"testCaseFullName" : "test3/test3BlackWhite", "time" : 14.525000},
-{"testCaseFullName" : "test4/test4BlackWhite", "time" : 8.335000},
-{"testCaseFullName" : "test5/test5BlackWhite", "time" : 8.335000}]}
-{"date" : "2017-03-15T19:05:05GMT-07:00",
-"results" : [{"testCaseFullName" : "test3/test3BlackWhite", "time" : 8.331000},
-{"testCaseFullName" : "test4/test4BlackWhite", "time" : 8.516000},
-{"testCaseFullName" : "test5/test5BlackWhite", "time" : 8.190000}]}
