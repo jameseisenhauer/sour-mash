@@ -1,0 +1,82 @@
+--------------
+Run Statistics
+--------------
+Start Time:           2017-03-14 05:06:31 +0000
+End Time:             2017-03-14 05:08:01 +0000
+Total execution time: 89.385881 seconds
+
+Times Taken
+-----------
+[Attempt 1] Create Simulator:                                5.737497 seconds
+[Attempt 1] Install Application:                             23.768352 seconds
+[Attempt 1] Launch Application:                              0.000000 seconds
+[Attempt 1] Run Tests:                                       47.686717 seconds
+All Tests:                                                   30.435148 seconds
+[Attempt 1] {[Selected tests]}:                              30.435095 seconds
+[Attempt 1] {[sour-mashUITests.xctest]}:                     30.431738 seconds
+[Attempt 1] {[test3]}:                                       13.770134 seconds
+[Attempt 1] [test3/test3BlackWhite]:                         13.075219 seconds
+[Attempt 1] {[test4]}:                                       8.072628 seconds
+[Attempt 1] [test4/test4BlackWhite]:                         8.070997 seconds
+[Attempt 1] {[test5]}:                                       8.334520 seconds
+[Attempt 1] [test5/test5BlackWhite]:                         8.333114 seconds
+[Attempt 1] Delete Simulator:                                11.769865 seconds
+
+Summary
+-------
+Total Tests Executed:           3
+Failed Tests (includes errors): 0
+Error Tests:                    0
+Timeout due to test run-time:   0
+Timeout due to no output:       0
+Retries:                        0
+Application Crashes:            0
+Simulator Crashes:              0
+Simulator Creation Failures:    0
+Simulator Deletion Failures:    0
+App Install Failures:           0
+App Launch Failures:            0
+
+Exit Code: 0
+
+--------------
+Run Statistics
+--------------
+Start Time:           2017-03-16 02:03:56 +0000
+End Time:             2017-03-16 02:05:16 +0000
+Total execution time: 80.643723 seconds
+
+Times Taken
+-----------
+[Attempt 1] Create Simulator:                                0.846603 seconds
+[Attempt 1] Install Application:                             22.726062 seconds
+[Attempt 1] Launch Application:                              0.000000 seconds
+[Attempt 1] Run Tests:                                       45.262999 seconds
+All Tests:                                                   25.095096 seconds
+[Attempt 1] {[Selected tests]}:                              25.095060 seconds
+[Attempt 1] {[sour-mashUITests.xctest]}:                     25.093338 seconds
+[Attempt 1] {[test3]}:                                       8.331041 seconds
+[Attempt 1] [test3/test3BlackWhite]:                         8.329540 seconds
+[Attempt 1] {[test4]}:                                       8.517658 seconds
+[Attempt 1] [test4/test4BlackWhite]:                         8.515933 seconds
+[Attempt 1] {[test5]}:                                       8.241537 seconds
+[Attempt 1] [test5/test5BlackWhite]:                         8.240132 seconds
+[Attempt 1] Delete Simulator:                                11.426132 seconds
+
+Summary
+-------
+Total Tests Executed:           3
+Failed Tests (includes errors): 0
+Error Tests:                    0
+Timeout due to test run-time:   0
+Timeout due to no output:       0
+Retries:                        0
+Application Crashes:            0
+Simulator Crashes:              0
+Simulator Creation Failures:    0
+Simulator Deletion Failures:    0
+App Install Failures:           0
+App Launch Failures:            0
+
+Exit Code: 0
+

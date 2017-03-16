@@ -1,0 +1,99 @@
+
+Test: Selected tests
+Start: 2017-03-14 05:09:18 +0000
+End: 2017-03-14 05:09:26 +0000
+Ended: YES
+Passed: NO
+Total: 1
+Fail: 1
+Unexpected: 1
+Time: 7.932000
+Log:
+XCTestOutputBarrier
+
+
+Test: sour-mashUITests.xctest
+Start: 2017-03-14 05:09:18 +0000
+End: 2017-03-14 05:09:26 +0000
+Ended: YES
+Passed: NO
+Total: 1
+Fail: 1
+Unexpected: 1
+Time: 7.931000
+Log:
+(null)
+
+Test: test7
+Start: 2017-03-14 05:09:18 +0000
+End: 2017-03-14 05:09:26 +0000
+Ended: YES
+Passed: NO
+Total: 1
+Fail: 1
+Unexpected: 1
+Time: 7.930000
+Log:
+(null)
+
+TestClass: test7
+testName: test7BlackWhite
+Time: 7.929000
+Ended: YES
+Passed: NO
+Filename: /Users/mos6y/Documents/workspace/sour-mash/sour-mash/sour-mashUITests/test7.swift
+Line number: 40
+Error Message: -[sour_mashUITests.test7 test7BlackWhite] : XCTAssertTrue failed - White Sub Title does not exist
+Log:
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-13 22:09:18.214
+    t =     0.00s     Set Up
+    t =     0.00s     Launch com.jameseisenhauer.sour-mash
+    t =     4.91s         Waiting for accessibility to load
+    t =     5.15s         Wait for app to idle
+    t =     6.41s     Tap Button
+    t =     6.41s         Wait for app to idle
+    t =     6.46s         Find the Button
+    t =     6.46s             Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.48s             Find: Descendants matching type TabBar
+    t =     6.48s             Find: Descendants matching type Button
+    t =     6.49s             Find: Element at index 1
+    t =     6.49s             Wait for app to idle
+    t =     6.54s         Synthesize event
+    t =     6.79s         Wait for app to idle
+    t =     6.84s     Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.86s     Find: Descendants matching type StaticText
+    t =     6.86s     Find: Elements matching predicate '"lbl_black_title" IN identifiers'
+    t =     6.86s     Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.86s     Find: Descendants matching type StaticText
+    t =     6.86s     Find: Elements matching predicate '"lbl_black_sub_title" IN identifiers'
+    t =     6.86s     Check predicate `exists == 1` against object `"White" Button`
+    t =     6.86s         Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.87s         Find: Descendants matching type TabBar
+    t =     6.87s         Find: Descendants matching type Button
+    t =     6.87s         Find: Elements matching predicate '"White" IN identifiers'
+    t =     6.87s     Find the "White" Button
+    t =     6.87s         Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.87s         Find: Descendants matching type TabBar
+    t =     6.87s         Find: Descendants matching type Button
+    t =     6.87s         Find: Elements matching predicate '"White" IN identifiers'
+    t =     7.15s     Tap "White" Button
+    t =     7.15s         Wait for app to idle
+    t =     7.20s         Find the "White" Button
+    t =     7.20s             Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.21s             Find: Descendants matching type TabBar
+    t =     7.21s             Find: Descendants matching type Button
+    t =     7.21s             Find: Elements matching predicate '"White" IN identifiers'
+    t =     7.22s             Wait for app to idle
+    t =     7.26s         Synthesize event
+    t =     7.52s         Wait for app to idle
+    t =     7.56s     Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.58s     Find: Descendants matching type StaticText
+    t =     7.58s     Find: Elements matching predicate '"lbl_white_title" IN identifiers'
+    t =     7.58s     Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.58s     Find: Descendants matching type StaticText
+    t =     7.58s     Find: Elements matching predicate '"lbl_white_sub_title_fail" IN identifiers'
+    t =     7.58s     Assertion Failure: test7.swift:40: XCTAssertTrue failed - White Sub Title does not exist
+/Users/mos6y/Documents/workspace/sour-mash/sour-mash/sour-mashUITests/test7.swift:40: error: -[sour_mashUITests.test7 test7BlackWhite] : XCTAssertTrue failed - White Sub Title does not exist
+XCTestOutputBarrier    t =     7.58s     Tear Down
+
+

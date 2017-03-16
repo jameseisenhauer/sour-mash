@@ -16,14 +16,14 @@ class BlackViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor.blackColor()
+        self.view.backgroundColor = UIColor.black
         
-        self.lbl_black_title.backgroundColor = UIColor.blackColor()
-        self.lbl_black_title.textColor = UIColor.whiteColor()
+        self.lbl_black_title.backgroundColor = UIColor.black
+        self.lbl_black_title.textColor = UIColor.white
         self.lbl_black_title.accessibilityLabel = "lbl_black_title"
         
-        self.lbl_black_sub_title.backgroundColor = UIColor.blackColor()
-        self.lbl_black_sub_title.textColor = UIColor.whiteColor()
+        self.lbl_black_sub_title.backgroundColor = UIColor.black
+        self.lbl_black_sub_title.textColor = UIColor.white
         self.lbl_black_sub_title.accessibilityLabel = "lbl_black_sub_title"
     }
 

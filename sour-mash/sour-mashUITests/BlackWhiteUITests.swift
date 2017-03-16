@@ -28,11 +28,11 @@ class BlackWhiteUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        app.tabBars.buttons.elementBoundByIndex(1).tap()
+        app.tabBars.buttons.element(boundBy: 1).tap()
         XCTAssertTrue(app.staticTexts["lbl_black_title"].exists, "Black Title does not exist")
         XCTAssertTrue(app.staticTexts["lbl_black_sub_title"].exists, "Black Sub Title does not exist")
         waitForElementToAppear(app.tabBars.buttons["White"])
-        XCTAssertTrue(app.tabBars.buttons["White"].hittable)
+        XCTAssertTrue(app.tabBars.buttons["White"].isHittable)
         usleep(200000)  // failing even though logs think it tapped on button UI does not do anything
         app.tabBars.buttons["White"].tap()
         XCTAssertTrue(app.staticTexts["lbl_white_title"].exists, "White Title does not exist")
@@ -40,16 +40,16 @@ class BlackWhiteUITests: XCTestCase {
         
     }
     
-    private func waitForElementToAppear(element: XCUIElement,
+    fileprivate func waitForElementToAppear(_ element: XCUIElement,
                                         file: String = #file, line: UInt = #line) {
         let existsPredicate = NSPredicate(format: "exists == true")
-        expectationForPredicate(existsPredicate,
-                                evaluatedWithObject: element, handler: nil)
+        expectation(for: existsPredicate,
+                                evaluatedWith: element, handler: nil)
         
-        waitForExpectationsWithTimeout(5) { (error) -> Void in
+        waitForExpectations(timeout: 5) { (error) -> Void in
             if (error != nil) {
                 let message = "Failed to find \(element) after 5 seconds."
-                self.recordFailureWithDescription(message,
+                self.recordFailure(withDescription: message,
                                                   inFile: file, atLine: line, expected: true)
             }
         }

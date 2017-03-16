@@ -15,6 +15,13 @@
 		893266481D5E7496005DBDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893266461D5E7496005DBDA2 /* LaunchScreen.storyboard */; };
 		893266531D5E7496005DBDA2 /* sour_mashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893266521D5E7496005DBDA2 /* sour_mashTests.swift */; };
 		8932665E1D5E7496005DBDA2 /* BlackWhiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8932665D1D5E7496005DBDA2 /* BlackWhiteUITests.swift */; };
+		895BB2F11E751CCD003AECE3 /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BB2F01E751CCD003AECE3 /* test1.swift */; };
+		895BB2F31E751CD7003AECE3 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BB2F21E751CD7003AECE3 /* test2.swift */; };
+		895BB2F51E751CE2003AECE3 /* test3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BB2F41E751CE2003AECE3 /* test3.swift */; };
+		895BB2F71E76E1EA003AECE3 /* test4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BB2F61E76E1EA003AECE3 /* test4.swift */; };
+		895BB2F91E76E20F003AECE3 /* test5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BB2F81E76E20F003AECE3 /* test5.swift */; };
+		895BB2FB1E76E232003AECE3 /* test6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BB2FA1E76E232003AECE3 /* test6.swift */; };
+		895BB2FD1E76E252003AECE3 /* test7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BB2FC1E76E252003AECE3 /* test7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		893266591D5E7496005DBDA2 /* sour-mashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sour-mashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8932665D1D5E7496005DBDA2 /* BlackWhiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackWhiteUITests.swift; sourceTree = "<group>"; };
 		8932665F1D5E7496005DBDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895BB2F01E751CCD003AECE3 /* test1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
+		895BB2F21E751CD7003AECE3 /* test2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
+		895BB2F41E751CE2003AECE3 /* test3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test3.swift; sourceTree = "<group>"; };
+		895BB2F61E76E1EA003AECE3 /* test4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test4.swift; sourceTree = "<group>"; };
+		895BB2F81E76E20F003AECE3 /* test5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test5.swift; sourceTree = "<group>"; };
+		895BB2FA1E76E232003AECE3 /* test6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test6.swift; sourceTree = "<group>"; };
+		895BB2FC1E76E252003AECE3 /* test7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +138,13 @@
 			children = (
 				8932665D1D5E7496005DBDA2 /* BlackWhiteUITests.swift */,
 				8932665F1D5E7496005DBDA2 /* Info.plist */,
+				895BB2F01E751CCD003AECE3 /* test1.swift */,
+				895BB2F21E751CD7003AECE3 /* test2.swift */,
+				895BB2F41E751CE2003AECE3 /* test3.swift */,
+				895BB2F61E76E1EA003AECE3 /* test4.swift */,
+				895BB2F81E76E20F003AECE3 /* test5.swift */,
+				895BB2FA1E76E232003AECE3 /* test6.swift */,
+				895BB2FC1E76E252003AECE3 /* test7.swift */,
 			);
 			path = "sour-mashUITests";
 			sourceTree = "<group>";
@@ -197,13 +218,16 @@
 					893266371D5E7495005DBDA2 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 7532ZTGSK7;
+						LastSwiftMigration = 0820;
 					};
 					8932664D1D5E7496005DBDA2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 893266371D5E7495005DBDA2;
 					};
 					893266581D5E7496005DBDA2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 893266371D5E7495005DBDA2;
 					};
 				};
@@ -278,7 +302,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895BB2F71E76E1EA003AECE3 /* test4.swift in Sources */,
+				895BB2F91E76E20F003AECE3 /* test5.swift in Sources */,
 				8932665E1D5E7496005DBDA2 /* BlackWhiteUITests.swift in Sources */,
+				895BB2F51E751CE2003AECE3 /* test3.swift in Sources */,
+				895BB2F31E751CD7003AECE3 /* test2.swift in Sources */,
+				895BB2FD1E76E252003AECE3 /* test7.swift in Sources */,
+				895BB2FB1E76E232003AECE3 /* test6.swift in Sources */,
+				895BB2F11E751CCD003AECE3 /* test1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +440,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -421,6 +453,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mash";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -432,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mashTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sour-mash.app/sour-mash";
 			};
 			name = Debug;
@@ -444,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mashTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sour-mash.app/sour-mash";
 			};
 			name = Release;
@@ -455,6 +490,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mashUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "sour-mash";
 			};
 			name = Debug;
@@ -466,6 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jameseisenhauer.sour-mashUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "sour-mash";
 			};
 			name = Release;

@@ -8,6 +8,9 @@
       location = "group:AWSDeviceFarmBuild.sh">
    </FileRef>
    <FileRef
+      location = "group:buildTest.sh">
+   </FileRef>
+   <FileRef
       location = "group:Gemfile">
    </FileRef>
    <FileRef

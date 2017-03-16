@@ -13,6 +13,9 @@ class sour_mashTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
+        print("warning: ")
+        print("warning: ▸ \(self.name!)")
+
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -24,13 +27,16 @@ class sour_mashTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+
         XCTAssertTrue(1 == 1)
     }
     
     func testExample1() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        print("warning: ▸ test example 1 print line")
         XCTAssertTrue(1 == 1)
+        
     }
     
     func testExample2() {

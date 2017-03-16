@@ -1,0 +1,5 @@
+{"date" : "2017-03-13T22:08:11GMT-07:00",
+"results" : [{"testCaseFullName" : "test6/test6BlackWhite", "time" : 8.826000}]}
+{"date" : "2017-03-15T19:05:33GMT-07:00",
+"results" : [{"testCaseFullName" : "test6/test6BlackWhite", "time" : 7.889000},
+{"testCaseFullName" : "test7/test7BlackWhite", "time" : 7.876000}]}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All tests" tests="4" failures="0" errors="0" time="0.028000">
+  <testsuite tests="4" failures="0" errors="0" time="0.026000" timestamp="2017-03-15T19:04:38GMT-07:00" name="sour-mashTests.xctest">
+    <testsuite tests="4" failures="0" errors="0" time="0.024000" timestamp="2017-03-15T19:04:38GMT-07:00" name="sour_mashTests">
+      <testcase classname="sour_mashTests" name="testExample" time="0.015000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.333
+    t =     0.00s     Set Up
+    t =     0.01s     Tear Down
+        </system-out>
+      </testcase>
+      <testcase classname="sour_mashTests" name="testExample1" time="0.002000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.349
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+        </system-out>
+      </testcase>
+      <testcase classname="sour_mashTests" name="testExample2" time="0.002000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.351
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+        </system-out>
+      </testcase>
+      <testcase classname="sour_mashTests" name="testExample3" time="0.002000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.354
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
+

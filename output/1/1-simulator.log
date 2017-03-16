@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+Tests started: 2017-03-14 05:06:28 +0000
+--------------------------------------------------------------------------------
+DEBUG_FLAG_TOBEREMOVED.
+Test Suite 'All tests' started at 2017-03-13 22:07:16.529
+XCTestOutputBarrierTest Suite 'sour-mashTests.xctest' started at 2017-03-13 22:07:16.530
+XCTestOutputBarrierTest Suite 'sour_mashTests' started at 2017-03-13 22:07:16.530
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-13 22:07:16.531
+    t =     0.00s     Set Up
+    t =     0.02s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample]' passed (0.017 seconds).
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample1]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-13 22:07:16.548
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample1]' passed (0.003 seconds).
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample2]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-13 22:07:16.552
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample2]' passed (0.003 seconds).
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample3]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-13 22:07:16.555
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample3]' passed (0.003 seconds).
+XCTestOutputBarrierTest Suite 'sour_mashTests' passed at 2017-03-13 22:07:16.558.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.026 (0.028) seconds
+XCTestOutputBarrierTest Suite 'sour-mashTests.xctest' passed at 2017-03-13 22:07:16.559.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.026 (0.029) seconds
+XCTestOutputBarrierTest Suite 'All tests' passed at 2017-03-13 22:07:16.559.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.026 (0.030) seconds
+XCTestOutputBarrierXCTestOutputBarrierwarning: 
+warning: ▸ -[sour_mashTests testExample]
+warning: 
+warning: ▸ -[sour_mashTests testExample1]
+warning: ▸ test example 1 print line
+warning: 
+warning: ▸ -[sour_mashTests testExample2]
+warning: 
+warning: ▸ -[sour_mashTests testExample3]
+
+BP_APP_PROC_ENDED
+--------------------------------------------------------------------------------
+Tests started: 2017-03-16 02:03:54 +0000
+--------------------------------------------------------------------------------
+DEBUG_FLAG_TOBEREMOVED.
+Test Suite 'All tests' started at 2017-03-15 19:04:38.330
+XCTestOutputBarrierTest Suite 'sour-mashTests.xctest' started at 2017-03-15 19:04:38.331
+XCTestOutputBarrierTest Suite 'sour_mashTests' started at 2017-03-15 19:04:38.332
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.333
+    t =     0.00s     Set Up
+    t =     0.01s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample]' passed (0.015 seconds).
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample1]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.349
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample1]' passed (0.002 seconds).
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample2]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.351
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample2]' passed (0.002 seconds).
+XCTestOutputBarrierTest Case '-[sour_mashTests.sour_mashTests testExample3]' started.
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:04:38.354
+    t =     0.00s     Set Up
+    t =     0.00s     Tear Down
+Test Case '-[sour_mashTests.sour_mashTests testExample3]' passed (0.002 seconds).
+XCTestOutputBarrierTest Suite 'sour_mashTests' passed at 2017-03-15 19:04:38.357.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.023 (0.024) seconds
+XCTestOutputBarrierTest Suite 'sour-mashTests.xctest' passed at 2017-03-15 19:04:38.357.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.023 (0.026) seconds
+XCTestOutputBarrierTest Suite 'All tests' passed at 2017-03-15 19:04:38.358.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.023 (0.028) seconds
+XCTestOutputBarrierXCTestOutputBarrierwarning: 
+warning: ▸ -[sour_mashTests testExample]
+warning: 
+warning: ▸ -[sour_mashTests testExample1]
+warning: ▸ test example 1 print line
+warning: 
+warning: ▸ -[sour_mashTests testExample2]
+warning: 
+warning: ▸ -[sour_mashTests testExample3]
+
+BP_APP_PROC_ENDED

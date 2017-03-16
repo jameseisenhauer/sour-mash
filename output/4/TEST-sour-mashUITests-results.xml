@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Selected tests" tests="2" failures="0" errors="0" time="15.768000">
+  <testsuite tests="2" failures="0" errors="0" time="15.767000" timestamp="2017-03-15T19:05:17GMT-07:00" name="sour-mashUITests.xctest">
+    <testsuite tests="1" failures="0" errors="0" time="7.889000" timestamp="2017-03-15T19:05:17GMT-07:00" name="test6">
+      <testcase classname="test6" name="test6BlackWhite" time="7.889000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:05:17.651
+    t =     0.00s     Set Up
+    t =     0.00s     Launch com.jameseisenhauer.sour-mash
+    t =     4.92s         Waiting for accessibility to load
+    t =     5.12s         Wait for app to idle
+    t =     6.37s     Tap Button
+    t =     6.37s         Wait for app to idle
+    t =     6.42s         Find the Button
+    t =     6.42s             Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.44s             Find: Descendants matching type TabBar
+    t =     6.44s             Find: Descendants matching type Button
+    t =     6.44s             Find: Element at index 1
+    t =     6.45s             Wait for app to idle
+    t =     6.50s         Synthesize event
+    t =     6.76s         Wait for app to idle
+    t =     6.80s     Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.82s     Find: Descendants matching type StaticText
+    t =     6.82s     Find: Elements matching predicate &#x27;&quot;lbl_black_title&quot; IN identifiers&#x27;
+    t =     6.82s     Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.82s     Find: Descendants matching type StaticText
+    t =     6.82s     Find: Elements matching predicate &#x27;&quot;lbl_black_sub_title&quot; IN identifiers&#x27;
+    t =     6.82s     Check predicate `exists == 1` against object `&quot;White&quot; Button`
+    t =     6.82s         Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.83s         Find: Descendants matching type TabBar
+    t =     6.83s         Find: Descendants matching type Button
+    t =     6.83s         Find: Elements matching predicate &#x27;&quot;White&quot; IN identifiers&#x27;
+    t =     6.83s     Find the &quot;White&quot; Button
+    t =     6.83s         Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.83s         Find: Descendants matching type TabBar
+    t =     6.83s         Find: Descendants matching type Button
+    t =     6.83s         Find: Elements matching predicate &#x27;&quot;White&quot; IN identifiers&#x27;
+    t =     7.11s     Tap &quot;White&quot; Button
+    t =     7.11s         Wait for app to idle
+    t =     7.16s         Find the &quot;White&quot; Button
+    t =     7.16s             Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.17s             Find: Descendants matching type TabBar
+    t =     7.17s             Find: Descendants matching type Button
+    t =     7.17s             Find: Elements matching predicate &#x27;&quot;White&quot; IN identifiers&#x27;
+    t =     7.18s             Wait for app to idle
+    t =     7.22s         Synthesize event
+    t =     7.47s         Wait for app to idle
+    t =     7.52s     Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.54s     Find: Descendants matching type StaticText
+    t =     7.54s     Find: Elements matching predicate &#x27;&quot;lbl_white_title&quot; IN identifiers&#x27;
+    t =     7.54s     Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.54s     Find: Descendants matching type StaticText
+    t =     7.54s     Find: Elements matching predicate &#x27;&quot;lbl_white_sub_title&quot; IN identifiers&#x27;
+    t =     7.54s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+    <testsuite tests="1" failures="0" errors="0" time="7.877000" timestamp="2017-03-15T19:05:25GMT-07:00" name="test7">
+      <testcase classname="test7" name="test7BlackWhite" time="7.876000">
+        <system-out>
+XCTestOutputBarrier    t =     0.00s     Start Test at 2017-03-15 19:05:25.540
+    t =     0.00s     Set Up
+    t =     0.00s     Launch com.jameseisenhauer.sour-mash
+    t =     0.04s         Terminate &lt;XCUIApplicationProcess: 0x6180000bc6e0 com.jameseisenhauer.sour-mash (52786)&gt;
+    t =     5.01s         Waiting for accessibility to load
+    t =     5.17s         Wait for app to idle
+    t =     6.36s     Tap Button
+    t =     6.36s         Wait for app to idle
+    t =     6.41s         Find the Button
+    t =     6.41s             Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.43s             Find: Descendants matching type TabBar
+    t =     6.44s             Find: Descendants matching type Button
+    t =     6.44s             Find: Element at index 1
+    t =     6.44s             Wait for app to idle
+    t =     6.49s         Synthesize event
+    t =     6.75s         Wait for app to idle
+    t =     6.79s     Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.81s     Find: Descendants matching type StaticText
+    t =     6.81s     Find: Elements matching predicate &#x27;&quot;lbl_black_title&quot; IN identifiers&#x27;
+    t =     6.81s     Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.81s     Find: Descendants matching type StaticText
+    t =     6.81s     Find: Elements matching predicate &#x27;&quot;lbl_black_sub_title&quot; IN identifiers&#x27;
+    t =     6.81s     Check predicate `exists == 1` against object `&quot;White&quot; Button`
+    t =     6.81s         Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.81s         Find: Descendants matching type TabBar
+    t =     6.82s         Find: Descendants matching type Button
+    t =     6.82s         Find: Elements matching predicate &#x27;&quot;White&quot; IN identifiers&#x27;
+    t =     6.82s     Find the &quot;White&quot; Button
+    t =     6.82s         Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     6.82s         Find: Descendants matching type TabBar
+    t =     6.82s         Find: Descendants matching type Button
+    t =     6.82s         Find: Elements matching predicate &#x27;&quot;White&quot; IN identifiers&#x27;
+    t =     7.10s     Tap &quot;White&quot; Button
+    t =     7.10s         Wait for app to idle
+    t =     7.14s         Find the &quot;White&quot; Button
+    t =     7.14s             Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.16s             Find: Descendants matching type TabBar
+    t =     7.16s             Find: Descendants matching type Button
+    t =     7.16s             Find: Elements matching predicate &#x27;&quot;White&quot; IN identifiers&#x27;
+    t =     7.16s             Wait for app to idle
+    t =     7.21s         Synthesize event
+    t =     7.46s         Wait for app to idle
+    t =     7.51s     Snapshot accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.52s     Find: Descendants matching type StaticText
+    t =     7.53s     Find: Elements matching predicate &#x27;&quot;lbl_white_title&quot; IN identifiers&#x27;
+    t =     7.53s     Use cached accessibility hierarchy for com.jameseisenhauer.sour-mash
+    t =     7.53s     Find: Descendants matching type StaticText
+    t =     7.53s     Find: Elements matching predicate &#x27;&quot;lbl_white_sub_title&quot; IN identifiers&#x27;
+    t =     7.53s     Tear Down
+        </system-out>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
+

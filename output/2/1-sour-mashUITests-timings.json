@@ -1,0 +1,8 @@
+{"date" : "2017-03-13T22:07:57GMT-07:00",
+"results" : [{"testCaseFullName" : "BlackWhiteUITests/testBlackWhite", "time" : 11.426000},
+{"testCaseFullName" : "test1/test1BlackWhite", "time" : 8.351000},
+{"testCaseFullName" : "test2/test2BlackWhite", "time" : 8.165000}]}
+{"date" : "2017-03-15T19:05:04GMT-07:00",
+"results" : [{"testCaseFullName" : "BlackWhiteUITests/testBlackWhite", "time" : 8.061000},
+{"testCaseFullName" : "test1/test1BlackWhite", "time" : 8.148000},
+{"testCaseFullName" : "test2/test2BlackWhite", "time" : 8.018000}]}
