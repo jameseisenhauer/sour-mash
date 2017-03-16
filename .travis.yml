@@ -3,6 +3,6 @@ language: objective-c
 before_install: gem install xcpretty  slather -N
 script:
  set -o pipefail && xcodebuild -workspace sour-mash.xcworkspace
-  -scheme sour-mash -sdk iphonesimulator -destination "platform=iOS Simulator, name=iPhone 7, OS=10.2"
+  -scheme sour-mash -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 7,OS=10.1"
   GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES clean build test | xcpretty -c
 after_success: slather
