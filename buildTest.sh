@@ -26,4 +26,6 @@ clean build-for-testing
 -o ./output \
 -f 2 \
 -F true \
--n 3
+-n 3 \
+-i test5/test5BlackWhite \
+-i BlackWhiteUITests/testBlackWhite

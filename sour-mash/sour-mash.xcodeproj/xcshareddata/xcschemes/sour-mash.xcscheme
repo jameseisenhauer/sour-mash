@@ -21,8 +21,8 @@
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForTesting = "NO"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "NO">
@@ -63,16 +63,6 @@
                BlueprintIdentifier = "893266581D5E7496005DBDA2"
                BuildableName = "sour-mashUITests.xctest"
                BlueprintName = "sour-mashUITests"
-               ReferencedContainer = "container:sour-mash.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8932664D1D5E7496005DBDA2"
-               BuildableName = "sour-mashTests.xctest"
-               BlueprintName = "sour-mashTests"
                ReferencedContainer = "container:sour-mash.xcodeproj">
             </BuildableReference>
          </TestableReference>
